@@ -13,7 +13,7 @@ public class UserEndPoints2 {
     // method created for getting URL's from properties file
     public static ResourceBundle getURL() {
         // Load properties file
-        return ResourceBundle.getBundle("routes");
+        return ResourceBundle.getBundle("routes"); // name of properties file
     }
 
     public static Response createUser(User payload) {
